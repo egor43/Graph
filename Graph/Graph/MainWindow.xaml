@@ -1,0 +1,18 @@
+﻿<Window x:Class="Graph.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Graph"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="700" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="461*"/>
+            <ColumnDefinition Width="56*"/>
+        </Grid.ColumnDefinitions>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="22,83,0,0" VerticalAlignment="Top" Height="314" Width="43" RenderTransformOrigin="0.485,0.57" Maximum="5" Orientation="Vertical" Grid.Column="1" Cursor="Arrow" AutoToolTipPlacement="BottomRight" TickPlacement="TopLeft" Foreground="#FF0C0909" SmallChange="1" Interval="1" SelectionEnd="1" ValueChanged="slider_ValueChanged" IsMoveToPointEnabled="True"/>
+        <Grid Name="Grid"/>
+
+    </Grid>
+</Window>

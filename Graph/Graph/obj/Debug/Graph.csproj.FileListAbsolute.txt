@@ -1,0 +1,14 @@
+D:\Egor\GitRepository\Graph\Graph\bin\Debug\Graph.exe.config
+D:\Egor\GitRepository\Graph\Graph\bin\Debug\Graph.exe
+D:\Egor\GitRepository\Graph\Graph\bin\Debug\Graph.pdb
+D:\Egor\GitRepository\Graph\Graph\obj\Debug\Graph.csprojResolveAssemblyReference.cache
+D:\Egor\GitRepository\Graph\Graph\obj\Debug\MainWindow.g.cs
+D:\Egor\GitRepository\Graph\Graph\obj\Debug\App.g.cs
+D:\Egor\GitRepository\Graph\Graph\obj\Debug\Graph_MarkupCompile.cache
+D:\Egor\GitRepository\Graph\Graph\obj\Debug\Graph_MarkupCompile.lref
+D:\Egor\GitRepository\Graph\Graph\obj\Debug\MainWindow.baml
+D:\Egor\GitRepository\Graph\Graph\obj\Debug\Graph.g.resources
+D:\Egor\GitRepository\Graph\Graph\obj\Debug\Graph.Properties.Resources.resources
+D:\Egor\GitRepository\Graph\Graph\obj\Debug\Graph.csproj.GenerateResource.Cache
+D:\Egor\GitRepository\Graph\Graph\obj\Debug\Graph.exe
+D:\Egor\GitRepository\Graph\Graph\obj\Debug\Graph.pdb
