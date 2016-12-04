@@ -11,7 +11,7 @@
             <ColumnDefinition Width="461*"/>
             <ColumnDefinition Width="56*"/>
         </Grid.ColumnDefinitions>
-        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="22,83,0,0" VerticalAlignment="Top" Height="314" Width="43" RenderTransformOrigin="0.485,0.57" Maximum="5" Orientation="Vertical" Grid.Column="1" Cursor="Arrow" AutoToolTipPlacement="BottomRight" TickPlacement="TopLeft" Foreground="#FF0C0909" SmallChange="1" Interval="1" SelectionEnd="1" ValueChanged="slider_ValueChanged" IsMoveToPointEnabled="True"/>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="22,83,0,0" VerticalAlignment="Top" Height="314" Width="43" RenderTransformOrigin="0.485,0.57" Maximum="8" Orientation="Vertical" Grid.Column="1" Cursor="Arrow" AutoToolTipPlacement="BottomRight" TickPlacement="TopLeft" Foreground="#FF0C0909" SmallChange="1" Interval="1" SelectionEnd="1" ValueChanged="slider_ValueChanged" IsMoveToPointEnabled="True"/>
         <Grid Name="Grid"/>
 
     </Grid>

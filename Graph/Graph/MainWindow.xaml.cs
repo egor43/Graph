@@ -53,7 +53,7 @@ namespace Graph
             PrintLine(list_of_points);
         }
 
-        public void Print(double x, double y, int count=0, double z=400, TypePoint point_type=TypePoint.One)
+        public void Print(double x, double y, int count=0, double z=400, TypePoint point_type=TypePoint.One, double razdn = 0)
         {
             Ellipse ellipse = new Ellipse();
             ellipse.HorizontalAlignment = HorizontalAlignment.Left;
@@ -73,21 +73,38 @@ namespace Graph
                         count++;
                         Gx = x;
                         Gy = y;
-                        Print(x, y+z, count,z, point_type);
+                        if(razdn!=0)
+                        {
+                            Print(x, y + razdn*2, count, z, point_type, razdn);
+                        }
+                        else
+                        {
+                            Print(x, y + z, count, z, point_type, razdn);
+                        }
                         break;
 
                     case TypePoint.Two:
                         point_type = TypePoint.Three;
                         count++;
-                        Print(x+z, y - z/2, count,z, point_type);
+                        if (razdn != 0)
+                        {
+                            Print(x + z, y-razdn+2, count, z, point_type, razdn);
+                        }
+                        else
+                        {
+                            Print(x + z, y - z / 2, count, z, point_type, razdn);
+                        }
+                        
                         break;
 
                     case TypePoint.Three:
                         point_type = TypePoint.One;
+                        double y1 = y;
                         x =Gx+Gx*0.8;//0.4
                         y = Gy+Gy*(3.4/count++);//1.7
                         z = z / 1.8;//1.8
-                        Print(x, y, count,z, point_type);
+                        razdn = y1-y;
+                        Print(x, y, count,z, point_type,razdn);
                         break;
                 }
             }
